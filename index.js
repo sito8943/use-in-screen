@@ -1,8 +1,9 @@
-import React, { useCallback, useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 
 /**
  *
  * @param {any} element could be ref or current
+ * @param {boolean} onlyOnce if only can happen once
  * @param {number} dividend number to divide the screen. Default 1
  * @returns
  */

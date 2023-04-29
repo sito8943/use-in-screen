@@ -1,5 +1,5 @@
 {
-  "name": "use-in-on-screen",
+  "name": "use-is-on-screen",
   "version": "1.1.1",
   "description": "hook to know if a element is on the screen",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SitoNumbis/use-in-on-screen.git"
+    "url": "git+https://github.com/SitoNumbis/use-is-on-screen.git"
   },
   "keywords": [
     "hook",
@@ -18,7 +18,7 @@
   "author": "sito",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/SitoNumbis/use-in-on-screen/issues"
+    "url": "https://github.com/SitoNumbis/use-is-on-screen/issues"
   },
-  "homepage": "https://github.com/SitoNumbis/use-in-on-screen#readme"
+  "homepage": "https://github.com/SitoNumbis/use-is-on-screen#readme"
 }
