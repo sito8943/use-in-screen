@@ -7,7 +7,7 @@ import { useCallback, useEffect, useState } from "react";
  * @param {number} dividend number to divide the screen. Default 1
  * @returns
  */
-const useIsOnScreen = (element, onlyOnce = false, dividend = 1) => {
+const useInScreen = (element, onlyOnce = false, dividend = 1) => {
   const [visible, setVisible] = useState(false);
 
   const onScroll = useCallback(
@@ -35,4 +35,4 @@ const useIsOnScreen = (element, onlyOnce = false, dividend = 1) => {
   return visible;
 };
 
-export default useIsOnScreen;
+export default useInScreen;

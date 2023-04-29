@@ -3,10 +3,10 @@
 hook to know if a element is on the screen
 
 ```
-    import useIsOnScreen from "use-is-on-screen";
+    import useInScreen from "use-in-screen";
 
 
-    const isInViewport = useIsOnScreen(element);
+    const isInViewport = useInScreen(element);
 
 ```
 
@@ -14,10 +14,10 @@ hook to know if a element is on the screen
 
 ```
     import React, { useState, useRef } from "react"
-    import useIsOnScreen from "use-is-on-screen";
+    import useInScreen from "use-in-screen";
 
     function MyComponent() {
-        const isInViewport = useIsOnScreen(element);
+        const isInViewport = useInScreen(element);
 
         const element = useRef(null)
 
@@ -36,6 +36,5 @@ hook to know if a element is on the screen
 - element could be ref or current (domHTML)
 - onlyOnce if only can happen once
 - dividend if you want it to come out with a few pixels before based on a parameter to divide the screen
-
 
 🙌 Good luck out there my friend 🙌
