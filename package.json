@@ -1,6 +1,6 @@
 {
   "name": "use-in-on-screen",
-  "version": "1.0.0",
+  "version": "1.1.1",
   "description": "hook to know if a element is on the screen",
   "main": "index.js",
   "scripts": {
