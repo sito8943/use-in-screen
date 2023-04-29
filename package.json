@@ -1,0 +1,24 @@
+{
+  "name": "use-in-on-screen",
+  "version": "1.0.0",
+  "description": "hook to know if a element is on the screen",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SitoNumbis/use-in-on-screen.git"
+  },
+  "keywords": [
+    "hook",
+    "viewport",
+    "in-viewport"
+  ],
+  "author": "sito",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SitoNumbis/use-in-on-screen/issues"
+  },
+  "homepage": "https://github.com/SitoNumbis/use-in-on-screen#readme"
+}
