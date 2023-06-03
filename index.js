@@ -32,6 +32,10 @@ const useInScreen = (element, onlyOnce = false, dividend = 1) => {
     } else window.removeEventListener("scroll", onScroll);
   }, [onScroll, onlyOnce, visible]);
 
+  useEffect(() => {
+    onScroll();
+  }, []);
+
   return visible;
 };
 
