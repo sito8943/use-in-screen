@@ -18,7 +18,12 @@ const useInScreen = (element, onlyOnce = false, dividend = 1) => {
           rect = element.current.getBoundingClientRect();
         else rect = element.getBoundingClientRect();
       }
-      if (rect) setVisible(Math.abs(rect.top) <= window.innerHeight / dividend);
+      if (rect) {
+        setVisible(
+          Math.abs(rect.top) <= window.innerHeight / dividend &&
+            Math.abs(rect.left) <= window.innerWidth / dividend
+        );
+      }
     },
     [setVisible, element, onlyOnce, dividend]
   );
