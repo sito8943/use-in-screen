@@ -1,4 +1,4 @@
-# use-in-on-screen
+# use-in-screen
 
 hook to know if a element is on the screen
 
@@ -17,9 +17,10 @@ hook to know if a element is on the screen
     import useInScreen from "use-in-screen";
 
     function MyComponent() {
-        const isInViewport = useInScreen(element);
 
         const element = useRef(null)
+
+        const isInViewport = useInScreen(element);
 
         return (
             <div ref={element}>
